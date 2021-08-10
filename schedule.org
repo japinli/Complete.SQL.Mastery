@@ -1,0 +1,9 @@
+#+title: Learn Complete SQL Mastery
+#+author: Japin Li
+
+* TODO Chapter 05 - Aggregate Functions
+  SCHEDULED: <2021-08-11 Wed>
+  - [ ] P41 - GROUP BY Clause
+  - [ ] P42 - HAVING Clause
+  - [ ] P43 - ROLLUP Operator
+
