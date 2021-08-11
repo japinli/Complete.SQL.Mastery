@@ -1,11 +1,9 @@
 #+title: Learn Complete SQL Mastery
 #+author: Japin Li
 
-* Chapter 05 - Aggregate Functions
-** DONE [X] P41 - Aggregate Functions
-** TODO [ ] P42 - GROUP BY Clause
-   SCHEDULED: <2021-08-12 Thu>
-** TODO [ ] P43 - HAVING Clause
-   SCHEDULED: <2021-08-13 Fri>
-** TODO [ ] P44 - ROLLUP Operator
-   SCHEDULED: <2021-08-14 Sat>
+* TODO Chapter 05 - Aggregate Functions
+  SCHEDULED: <2021-08-11 Wed> DEADLINE: <2021-08-14 Sat>
+  - [x] P41 - Aggregate Functions
+  - [ ] P42 - GROUP BY Clause
+  - [ ] P43 - HAVING Clause
+  - [ ] P44 - ROLLUP Operator
