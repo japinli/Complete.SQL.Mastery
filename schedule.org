@@ -5,5 +5,5 @@
   SCHEDULED: <2021-08-11 Wed> DEADLINE: <2021-08-14 Sat>
   - [X] P41 - Aggregate Functions
   - [X] P42 - GROUP BY Clause
-  - [ ] P43 - HAVING Clause
+  - [X] P43 - HAVING Clause
   - [ ] P44 - ROLLUP Operator
