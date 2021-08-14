@@ -1,9 +1,22 @@
 #+title: Learn Complete SQL Mastery
 #+author: Japin Li
 
-* TODO Chapter 05 - Aggregate Functions
+* DONE Chapter 05 - Aggregate Functions
   SCHEDULED: <2021-08-11 Wed> DEADLINE: <2021-08-14 Sat>
   - [X] P41 - Aggregate Functions
   - [X] P42 - GROUP BY Clause
   - [X] P43 - HAVING Clause
   - [X] P44 - ROLLUP Operator
+
+* TODO Chapter 06 - Writing Complex Queries
+  DEADLINE: <2021-08-25 Wed> SCHEDULED: <2021-08-15 Sun>
+  - [ ] P45 - Introduction
+  - [ ] P46 - Subqueries
+  - [ ] P47 - The IN Operator
+  - [ ] P48 - Subqueries vs Joins
+  - [ ] P49 - The ALL Keyword
+  - [ ] P50 - The ANY Keyword
+  - [ ] P51 - Correlated Subqueries
+  - [ ] P52 - The EXISTS Operator
+  - [ ] P53 - Subqueries in the SELECT Clause
+  - [ ] P54 - Subqueries in the FORM Clause
