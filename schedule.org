@@ -6,4 +6,4 @@
   - [X] P41 - Aggregate Functions
   - [X] P42 - GROUP BY Clause
   - [X] P43 - HAVING Clause
-  - [ ] P44 - ROLLUP Operator
+  - [X] P44 - ROLLUP Operator
