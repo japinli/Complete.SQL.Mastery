@@ -12,7 +12,7 @@
   DEADLINE: <2021-08-25 Wed> SCHEDULED: <2021-08-15 Sun>
   - [X] P45 - Introduction
   - [X] P46 - Subqueries
-  - [ ] P47 - The IN Operator
+  - [X] P47 - The IN Operator
   - [ ] P48 - Subqueries vs Joins
   - [ ] P49 - The ALL Keyword
   - [ ] P50 - The ANY Keyword
@@ -20,3 +20,7 @@
   - [ ] P52 - The EXISTS Operator
   - [ ] P53 - Subqueries in the SELECT Clause
   - [ ] P54 - Subqueries in the FORM Clause
+
+* Notes
+
+  The IN operator is used where there has multiple records.
