@@ -13,7 +13,7 @@
   - [X] P45 - Introduction
   - [X] P46 - Subqueries
   - [X] P47 - The IN Operator
-  - [ ] P48 - Subqueries vs Joins
+  - [X] P48 - Subqueries vs Joins
   - [ ] P49 - The ALL Keyword
   - [ ] P50 - The ANY Keyword
   - [ ] P51 - Correlated Subqueries
