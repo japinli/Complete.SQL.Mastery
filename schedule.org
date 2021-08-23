@@ -14,9 +14,9 @@
   - [X] P46 - Subqueries
   - [X] P47 - The IN Operator
   - [X] P48 - Subqueries vs Joins
-  - [ ] P49 - The ALL Keyword
-  - [ ] P50 - The ANY Keyword
-  - [ ] P51 - Correlated Subqueries
+  - [X] P49 - The ALL Keyword
+  - [X] P50 - The ANY Keyword
+  - [X] P51 - Correlated Subqueries
   - [ ] P52 - The EXISTS Operator
   - [ ] P53 - Subqueries in the SELECT Clause
   - [ ] P54 - Subqueries in the FORM Clause
@@ -24,3 +24,9 @@
 * Notes
 
   The IN operator is used where there has multiple records.
+  ~IN~ <-> ~= ANY~
+
+** Correlated Vs. Non-Correlated Subqueries
+
+   Correlated subqueries use the outer tables (slow).
+   Non-Correlated subqueries don't use the outer tables.
