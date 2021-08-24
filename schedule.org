@@ -17,7 +17,7 @@
   - [X] P49 - The ALL Keyword
   - [X] P50 - The ANY Keyword
   - [X] P51 - Correlated Subqueries
-  - [ ] P52 - The EXISTS Operator
+  - [X] P52 - The EXISTS Operator
   - [ ] P53 - Subqueries in the SELECT Clause
   - [ ] P54 - Subqueries in the FORM Clause
 
