@@ -24,7 +24,7 @@
 * TODO Chapter 07 - MySQL Functions
   DEADLINE: <2021-09-02 Thu> SCHEDULED: <2021-08-26 Thu>
   - [X] P55 - Numeric Functions
-  - [ ] P56 - String Functions
+  - [X] P56 - String Functions
   - [ ] P57 - Date Functions in MySQL
   - [ ] P58 - Formatting Dates and Times
   - [ ] P59 - Calculating Dates and Times
@@ -56,3 +56,18 @@
    * =ABS()= - Return the absolute value.
    * =RAND()= - Return a random floating-point value. =[0, 1.0)=
      
+** [[https://dev.mysql.com/doc/refman/8.0/en/string-functions.html][String Functions]]
+
+   * =LENGTH()= - Return the length of a string in bytes.
+   * =UPPER()= - Convert to uppercase.
+   * =LOWER()= - Return the argument in lowercase.
+   * =LTRIM()= - Remove leading spaces.
+   * =RTRIM()= - Remove trailing spaces.
+   * =TRIM()= - Remove leading and trailing spaces.
+   * =LEFT()= - Return the leftmost number of characters as specified.
+   * =RIGHT()= - Return the specified rightmost number of characters.
+   * =SUBSTRING()= - Return the substring as specified.
+   * =LOCATE()= - Return the position of the first occurrence of substring.
+   * =REPLACE()= - Replace occurrences of a specified string.
+   * =CONCATE()= - Return concatenated string.
+   * =CONCATE_WS()= - Return concatenate with separator.
