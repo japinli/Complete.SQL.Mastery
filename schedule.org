@@ -8,7 +8,7 @@
   - [X] P43 - HAVING Clause
   - [X] P44 - ROLLUP Operator
 
-* TODO Chapter 06 - Writing Complex Queries
+* DONE Chapter 06 - Writing Complex Queries
   DEADLINE: <2021-08-25 Wed> SCHEDULED: <2021-08-15 Sun>
   - [X] P45 - Introduction
   - [X] P46 - Subqueries
@@ -19,7 +19,18 @@
   - [X] P51 - Correlated Subqueries
   - [X] P52 - The EXISTS Operator
   - [X] P53 - Subqueries in the SELECT Clause
-  - [ ] P54 - Subqueries in the FORM Clause
+  - [X] P54 - Subqueries in the FORM Clause
+
+* TODO Chapter 07 - MySQL Functions
+  DEADLINE: <2021-09-02 Thu> SCHEDULED: <2021-08-26 Thu>
+  - [X] P55 - Numeric Functions
+  - [ ] P56 - String Functions
+  - [ ] P57 - Date Functions in MySQL
+  - [ ] P58 - Formatting Dates and Times
+  - [ ] P59 - Calculating Dates and Times
+  - [ ] P60 - The IFNULL and COALESCE Functions
+  - [ ] P61 - The IF Functions
+  - [ ] P62 - The CASE Operator
 
 * Notes
 
@@ -30,3 +41,18 @@
 
    Correlated subqueries use the outer tables (slow).
    Non-Correlated subqueries don't use the outer tables.
+
+** MySQL Functions
+   [[https://dev.mysql.com/doc/refman/8.0/en/numeric-functions.html][Numeric Functions]]
+
+   * =ROUND()= - Round the argument.
+     =ROUND(5.2) -> 5=, =ROUND(5.16, 1) -> 5.2=
+   * =TRUNCATE()= - Truncate to specified number of decimal places.
+     =TRUNCATE(1.999, 1) -> 1.9=, =TRUNCATE(122, -2) -> 100=
+   * =CEILING()= - Return the smallest integer value not less than the argument.
+     =CEILING(1.23) -> 2=, =CEILING(-1.23) -> -1=
+   * =FLOOR()= - Return the largest integer value not greater than the argument.
+     =FLOOR(1.23) -> 1=, =FLOOR(-1.23) -> -2=
+   * =ABS()= - Return the absolute value.
+   * =RAND()= - Return a random floating-point value. =[0, 1.0)=
+     
