@@ -25,7 +25,7 @@
   DEADLINE: <2021-09-02 Thu> SCHEDULED: <2021-08-26 Thu>
   - [X] P55 - Numeric Functions
   - [X] P56 - String Functions
-  - [ ] P57 - Date Functions in MySQL
+  - [X] P57 - Date Functions in MySQL
   - [ ] P58 - Formatting Dates and Times
   - [ ] P59 - Calculating Dates and Times
   - [ ] P60 - The IFNULL and COALESCE Functions
@@ -71,3 +71,15 @@
    * =REPLACE()= - Replace occurrences of a specified string.
    * =CONCATE()= - Return concatenated string.
    * =CONCATE_WS()= - Return concatenate with separator.
+
+** [[https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html][Date Functions]]
+
+   * =NOW()= - Return the current date and time. =CURRENT_TIMESTAMP()=, =CURRENT_TIMESTAMP=.
+   * =CURDATE()= - Return the current date. =CURRENT_DATE()=, =CURRENT_DATE=.
+   * =CURTIME()= - Return the current time. =CURRENT_TIME()=, =CURRENT_TIME=.
+   * =YEAR()= - Return the year.
+   * =DAYOFMONTH()= - Return the day of the month (0-31). =DAY()=.
+   * =DAYOFYEAR()= - Return the day of the year (1-366).
+   * =DAYOFWEEK()= - Return the weekday index of the argument.
+   * =DAYNAME()= - Return the name of the weekday.
+   * =EXTRACT()= - Extract part of a date. =EXTRACT(unit FROM date)=
