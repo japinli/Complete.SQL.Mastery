@@ -26,7 +26,7 @@
   - [X] P55 - Numeric Functions
   - [X] P56 - String Functions
   - [X] P57 - Date Functions in MySQL
-  - [ ] P58 - Formatting Dates and Times
+  - [X] P58 - Formatting Dates and Times
   - [ ] P59 - Calculating Dates and Times
   - [ ] P60 - The IFNULL and COALESCE Functions
   - [ ] P61 - The IF Functions
@@ -83,3 +83,16 @@
    * =DAYOFWEEK()= - Return the weekday index of the argument.
    * =DAYNAME()= - Return the name of the weekday.
    * =EXTRACT()= - Extract part of a date. =EXTRACT(unit FROM date)=
+
+** [[https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_date-format][Date and Time Format Functions]]
+
+   * =DATE_FORMAT()= - Format date as specified.
+     =%Y= Year, numeric, four digits. =%y= Year numeric (two digits).
+     =%M= Month name (January..December). =%m= Month, numeric (00..12).
+     =%d= Day of the month, numeric (00..31). =%e= Day of the month, numeric (0..31).
+     =%D= Day of the month with English suffix (0th, 1st, 2nd, 3rd, ...)
+     =%W= Weekday name (Sunday..Saturday), =%w= Day of the week (0=Sunday..6=Saturday).
+   * =TIME_FORMAT()= - Format as time.
+     =%T= Time, 24-hour (hh:mm:ss).
+     =%H= Hour (00..23), =%i= Minutes, numeric (00..59), =%s= Seconds (00..59), =%p= AM or PM.
+     
