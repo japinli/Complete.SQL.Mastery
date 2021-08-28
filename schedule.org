@@ -46,13 +46,13 @@
    [[https://dev.mysql.com/doc/refman/8.0/en/numeric-functions.html][Numeric Functions]]
 
    * =ROUND()= - Round the argument.
-     =ROUND(5.2) -> 5=, =ROUND(5.16, 1) -> 5.2=
+     - =ROUND(5.2) -> 5=, =ROUND(5.16, 1) -> 5.2=
    * =TRUNCATE()= - Truncate to specified number of decimal places.
-     =TRUNCATE(1.999, 1) -> 1.9=, =TRUNCATE(122, -2) -> 100=
+     - =TRUNCATE(1.999, 1) -> 1.9=, =TRUNCATE(122, -2) -> 100=
    * =CEILING()= - Return the smallest integer value not less than the argument.
-     =CEILING(1.23) -> 2=, =CEILING(-1.23) -> -1=
+     - =CEILING(1.23) -> 2=, =CEILING(-1.23) -> -1=
    * =FLOOR()= - Return the largest integer value not greater than the argument.
-     =FLOOR(1.23) -> 1=, =FLOOR(-1.23) -> -2=
+     - =FLOOR(1.23) -> 1=, =FLOOR(-1.23) -> -2=
    * =ABS()= - Return the absolute value.
    * =RAND()= - Return a random floating-point value. =[0, 1.0)=
      
@@ -87,12 +87,12 @@
 ** [[https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_date-format][Date and Time Format Functions]]
 
    * =DATE_FORMAT()= - Format date as specified.
-     =%Y= Year, numeric, four digits. =%y= Year numeric (two digits).
-     =%M= Month name (January..December). =%m= Month, numeric (00..12).
-     =%d= Day of the month, numeric (00..31). =%e= Day of the month, numeric (0..31).
-     =%D= Day of the month with English suffix (0th, 1st, 2nd, 3rd, ...)
-     =%W= Weekday name (Sunday..Saturday), =%w= Day of the week (0=Sunday..6=Saturday).
+     - =%Y= Year, numeric, four digits. =%y= Year numeric (two digits).
+     - =%M= Month name (January..December). =%m= Month, numeric (00..12).
+     - =%d= Day of the month, numeric (00..31). =%e= Day of the month, numeric (0..31).
+     - =%D= Day of the month with English suffix (0th, 1st, 2nd, 3rd, ...)
+     - =%W= Weekday name (Sunday..Saturday), =%w= Day of the week (0=Sunday..6=Saturday).
    * =TIME_FORMAT()= - Format as time.
-     =%T= Time, 24-hour (hh:mm:ss).
-     =%H= Hour (00..23), =%i= Minutes, numeric (00..59), =%s= Seconds (00..59), =%p= AM or PM.
+     - =%T= Time, 24-hour (hh:mm:ss).
+     - =%H= Hour (00..23), =%i= Minutes, numeric (00..59), =%s= Seconds (00..59), =%p= AM or PM.
      
