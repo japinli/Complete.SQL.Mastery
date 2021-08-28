@@ -27,7 +27,7 @@
   - [X] P56 - String Functions
   - [X] P57 - Date Functions in MySQL
   - [X] P58 - Formatting Dates and Times
-  - [ ] P59 - Calculating Dates and Times
+  - [X] P59 - Calculating Dates and Times
   - [ ] P60 - The IFNULL and COALESCE Functions
   - [ ] P61 - The IF Functions
   - [ ] P62 - The CASE Operator
@@ -95,4 +95,10 @@
    * =TIME_FORMAT()= - Format as time.
      - =%T= Time, 24-hour (hh:mm:ss).
      - =%H= Hour (00..23), =%i= Minutes, numeric (00..59), =%s= Seconds (00..59), =%p= AM or PM.
-     
+
+** [[https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html][Calculating Dates and Times]]
+
+   * =DATE_ADD()= - Add time values (intervals) to a date value.
+   * =DATE_SUB()= - Subtract a time value (interval) from a date.
+   * =DATEDIFF()= - Subtract two dates.
+   * =TIME_TO_SEC()= - Return the argument converted to seconds.
