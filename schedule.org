@@ -29,7 +29,7 @@
   - [X] P58 - Formatting Dates and Times
   - [X] P59 - Calculating Dates and Times
   - [X] P60 - The IFNULL and COALESCE Functions
-  - [ ] P61 - The IF Functions
+  - [X] P61 - The IF Functions
   - [ ] P62 - The CASE Operator
 
 * Notes
