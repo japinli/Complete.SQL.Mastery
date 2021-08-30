@@ -28,7 +28,7 @@
   - [X] P57 - Date Functions in MySQL
   - [X] P58 - Formatting Dates and Times
   - [X] P59 - Calculating Dates and Times
-  - [ ] P60 - The IFNULL and COALESCE Functions
+  - [X] P60 - The IFNULL and COALESCE Functions
   - [ ] P61 - The IF Functions
   - [ ] P62 - The CASE Operator
 
