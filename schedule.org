@@ -21,7 +21,7 @@
   - [X] P53 - Subqueries in the SELECT Clause
   - [X] P54 - Subqueries in the FORM Clause
 
-* TODO Chapter 07 - MySQL Functions
+* DONE Chapter 07 - MySQL Functions
   DEADLINE: <2021-09-02 Thu> SCHEDULED: <2021-08-26 Thu>
   - [X] P55 - Numeric Functions
   - [X] P56 - String Functions
@@ -31,6 +31,14 @@
   - [X] P60 - The IFNULL and COALESCE Functions
   - [X] P61 - The IF Functions
   - [X] P62 - The CASE Operator
+
+* Chapter 08 - MySQL Views
+  DEADLINE: <2021-09-07 Tue> SCHEDULED: <2021-09-03 Fri>
+  - [ ] P63 - Creating Views
+  - [ ] P64 - Altering or Dropping Views
+  - [ ] P65 - Updatable Views
+  - [ ] P66 - The WITH OPTION CHECK Clause
+  - [ ] P67 - Other Benefits of Views
 
 * Notes
 
