@@ -30,7 +30,7 @@
   - [X] P59 - Calculating Dates and Times
   - [X] P60 - The IFNULL and COALESCE Functions
   - [X] P61 - The IF Functions
-  - [ ] P62 - The CASE Operator
+  - [X] P62 - The CASE Operator
 
 * Notes
 
