@@ -34,7 +34,7 @@
 
 * Chapter 08 - MySQL Views
   DEADLINE: <2021-09-07 Tue> SCHEDULED: <2021-09-03 Fri>
-  - [ ] P63 - Creating Views
+  - [X] P63 - Creating Views
   - [ ] P64 - Altering or Dropping Views
   - [ ] P65 - Updatable Views
   - [ ] P66 - The WITH OPTION CHECK Clause
