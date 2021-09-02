@@ -35,10 +35,10 @@
 * Chapter 08 - MySQL Views
   DEADLINE: <2021-09-07 Tue> SCHEDULED: <2021-09-03 Fri>
   - [X] P63 - Creating Views
-  - [ ] P64 - Altering or Dropping Views
-  - [ ] P65 - Updatable Views
-  - [ ] P66 - The WITH OPTION CHECK Clause
-  - [ ] P67 - Other Benefits of Views
+  - [X] P64 - Altering or Dropping Views
+  - [X] P65 - Updatable Views
+  - [X] P66 - The WITH OPTION CHECK Clause
+  - [X] P67 - Other Benefits of Views
 
 * Notes
 
@@ -110,3 +110,8 @@
    * =DATE_SUB()= - Subtract a time value (interval) from a date.
    * =DATEDIFF()= - Subtract two dates.
    * =TIME_TO_SEC()= - Return the argument converted to seconds.
+
+* Views
+- Simplify queries
+- Reduce the impact of changes
+- Restrict access to the data
