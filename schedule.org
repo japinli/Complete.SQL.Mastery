@@ -32,13 +32,27 @@
   - [X] P61 - The IF Functions
   - [X] P62 - The CASE Operator
 
-* Chapter 08 - MySQL Views
+* DONE Chapter 08 - MySQL Views
   DEADLINE: <2021-09-07 Tue> SCHEDULED: <2021-09-03 Fri>
   - [X] P63 - Creating Views
   - [X] P64 - Altering or Dropping Views
   - [X] P65 - Updatable Views
   - [X] P66 - The WITH OPTION CHECK Clause
   - [X] P67 - Other Benefits of Views
+    
+* TODO Chapter 09 - Stored Procedures
+  DEADLINE: <2021-09-14 Tue> SCHEDULED: <2021-09-04 Sat>
+  - [X] P68 - What are Stored Procedures
+  - [X] P69 - Creating a Stored Procedure
+  - [X] P70 - Creating Procedures Using MySQLWorkbench
+  - [X] P71 - Dropping Stored Procedures
+  - [ ] P72 - Parameters
+  - [ ] P73 - Parameters with Default Value
+  - [ ] P74 - Parameter Validation
+  - [ ] P75 - Output Parameters
+  - [ ] P76 - Variables
+  - [ ] P77 - Functions
+  - [ ] P78 - Other Conventions
 
 * Notes
 
