@@ -47,7 +47,7 @@
   - [X] P70 - Creating Procedures Using MySQLWorkbench
   - [X] P71 - Dropping Stored Procedures
   - [X] P72 - Parameters
-  - [ ] P73 - Parameters with Default Value
+  - [X] P73 - Parameters with Default Value
   - [ ] P74 - Parameter Validation
   - [ ] P75 - Output Parameters
   - [ ] P76 - Variables
