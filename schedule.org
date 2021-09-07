@@ -48,7 +48,7 @@
   - [X] P71 - Dropping Stored Procedures
   - [X] P72 - Parameters
   - [X] P73 - Parameters with Default Value
-  - [ ] P74 - Parameter Validation
+  - [X] P74 - Parameter Validation
   - [ ] P75 - Output Parameters
   - [ ] P76 - Variables
   - [ ] P77 - Functions
@@ -129,3 +129,5 @@
 - Simplify queries
 - Reduce the impact of changes
 - Restrict access to the data
+
+* [[https://www.ibm.com/docs/en/i/7.3?topic=codes-listing-sqlstate-values][SQLSTATE Values]]
