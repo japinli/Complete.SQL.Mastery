@@ -40,7 +40,7 @@
   - [X] P66 - The WITH OPTION CHECK Clause
   - [X] P67 - Other Benefits of Views
     
-* TODO Chapter 09 - Stored Procedures
+* DONE Chapter 09 - Stored Procedures
   DEADLINE: <2021-09-14 Tue> SCHEDULED: <2021-09-04 Sat>
   - [X] P68 - What are Stored Procedures
   - [X] P69 - Creating a Stored Procedure
@@ -49,10 +49,10 @@
   - [X] P72 - Parameters
   - [X] P73 - Parameters with Default Value
   - [X] P74 - Parameter Validation
-  - [ ] P75 - Output Parameters
-  - [ ] P76 - Variables
-  - [ ] P77 - Functions
-  - [ ] P78 - Other Conventions
+  - [X] P75 - Output Parameters
+  - [X] P76 - Variables
+  - [X] P77 - Functions
+  - [X] P78 - Other Conventions
 
 * Notes
 
@@ -131,3 +131,25 @@
 - Restrict access to the data
 
 * [[https://www.ibm.com/docs/en/i/7.3?topic=codes-listing-sqlstate-values][SQLSTATE Values]]
+
+* Variables
+
+** User or session variables
+   =SET @myVar = 0;=
+** Local variables
+   #+begin_src
+   CREATE PROCEDURE get_risk_factor()
+   BEGIN
+       DECLARE risk_factor DECIMAL(9, 2) DEFAULT 0;
+       DECLARE invoices_total DECIMAL(9, 2);
+       DECLARE invoices_count INT;
+
+       SELECT COUNT(*), SUM(invoice_total)
+       INTO invoices_count, invoices_total
+       FROM invoices;
+
+       SET risk_factor = invoices_total / invoices_count * 5;
+
+       SELECT risk_factor;
+   END;
+   #+end_src
