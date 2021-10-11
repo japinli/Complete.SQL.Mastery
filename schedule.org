@@ -54,6 +54,15 @@
   - [X] P77 - Functions
   - [X] P78 - Other Conventions
 
+* TODO Chapter 10 - Triggers
+  DEADLINE: <2021-10-17 Sun> SCHEDULED: <2021-10-11 Mon>
+  - [X] P79 - Triggers
+  - [X] P80 - Viewing Triggers
+  - [X] P81 - Dropping Triggers
+  - [ ] P82 - Using Triggers for Auditing
+  - [ ] P83 - Events
+  - [ ] P84 - Viewing, Dropping and Altering Events
+
 * Notes
 
   The IN operator is used where there has multiple records.
@@ -153,3 +162,16 @@
        SELECT risk_factor;
    END;
    #+end_src
+
+* Triggers
+
+  * BEFORE and AFTER triggers
+  * INSERT/DELETE/UPDATE
+  * Supports FOR EACH ROW only for now.
+    In PostgreSQL, there is a FOR EACH STATEMENT option.
+  * NEW and OLD variables in triggers body.
+    NEW - the new tuple will be inserted.
+    OLD - the old tuple will be deleted.
+
+  * SHOW TRIGGERS [ LIKE 'xxx%' ];
+  * DROP TRIGGER [ IF EXISTS ] <trigger_name>;
