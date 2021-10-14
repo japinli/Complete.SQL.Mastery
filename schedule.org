@@ -59,7 +59,7 @@
   - [X] P79 - Triggers
   - [X] P80 - Viewing Triggers
   - [X] P81 - Dropping Triggers
-  - [ ] P82 - Using Triggers for Auditing
+  - [X] P82 - Using Triggers for Auditing
   - [ ] P83 - Events
   - [ ] P84 - Viewing, Dropping and Altering Events
 
