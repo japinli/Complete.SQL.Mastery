@@ -1,3 +1,4 @@
+#+Startup: indent content
 #+title: Learn Complete SQL Mastery
 #+author: Japin Li
 
@@ -54,14 +55,27 @@
   - [X] P77 - Functions
   - [X] P78 - Other Conventions
 
-* TODO Chapter 10 - Triggers
+* DONE Chapter 10 - Triggers
   DEADLINE: <2021-10-17 Sun> SCHEDULED: <2021-10-11 Mon>
   - [X] P79 - Triggers
   - [X] P80 - Viewing Triggers
   - [X] P81 - Dropping Triggers
   - [X] P82 - Using Triggers for Auditing
   - [X] P83 - Events
-  - [ ] P84 - Viewing, Dropping and Altering Events
+  - [X] P84 - Viewing, Dropping and Altering Events
+
+* TODO Chapter 11 - Transactions
+DEADLINE: <2021-11-04 Thu> SCHEDULED: <2021-10-25 Mon>
+- [ ] P85 - Transactions
+- [ ] P86 - Creating Transactions
+- [ ] P87 - Concurrency and Locking
+- [ ] P88 - Concurrency Problems
+- [ ] P89 - Concurrency Isolation Levels
+- [ ] P90 - READ UNCOMMITED Isolation Level
+- [ ] P91 - READ COMMITED Isolation Level
+- [ ] P92 - REPEATABLE READ Isolation Level
+- [ ] P93 - SERIALIZABLE Isolation Level
+- [ ] P94 - Deadlocks
 
 * Notes
 
