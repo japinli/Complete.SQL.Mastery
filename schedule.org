@@ -189,3 +189,10 @@ DEADLINE: <2021-11-04 Thu> SCHEDULED: <2021-10-25 Mon>
 
   * SHOW TRIGGERS [ LIKE 'xxx%' ];
   * DROP TRIGGER [ IF EXISTS ] <trigger_name>;
+
+* Transactions
+ACID Properties
+- Atomicity
+- Consistency
+- Isolation
+- Durability
