@@ -68,7 +68,7 @@
 DEADLINE: <2021-11-04 Thu> SCHEDULED: <2021-10-25 Mon>
 - [X] P85 - Transactions
 - [X] P86 - Creating Transactions
-- [ ] P87 - Concurrency and Locking
+- [X] P87 - Concurrency and Locking
 - [ ] P88 - Concurrency Problems
 - [ ] P89 - Concurrency Isolation Levels
 - [ ] P90 - READ UNCOMMITED Isolation Level
