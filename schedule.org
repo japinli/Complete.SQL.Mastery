@@ -69,10 +69,10 @@ DEADLINE: <2021-11-04 Thu> SCHEDULED: <2021-10-25 Mon>
 - [X] P85 - Transactions
 - [X] P86 - Creating Transactions
 - [X] P87 - Concurrency and Locking
-- [ ] P88 - Concurrency Problems
+- [X] P88 - Concurrency Problems
 - [ ] P89 - Concurrency Isolation Levels
-- [ ] P90 - READ UNCOMMITED Isolation Level
-- [ ] P91 - READ COMMITED Isolation Level
+- [ ] P90 - READ UNCOMMITTED Isolation Level
+- [ ] P91 - READ COMMITTED Isolation Level
 - [ ] P92 - REPEATABLE READ Isolation Level
 - [ ] P93 - SERIALIZABLE Isolation Level
 - [ ] P94 - Deadlocks
@@ -200,3 +200,13 @@ ACID Properties
 When a transaction has an error, MySQL should call ROLLBACK, otherwise, it will
 commit the successed. In PostgreSQL, however, you can call COMMIT even if you
 get an error in a transaction, PostgreSQL will do ROLLBACK for you.
+
+** Concurrency Problems
+Lost Updates
+- Dirty Reads
+  READ UNCOMMITTED
+  READ COMMITTED
+- Non-repeating Reads
+  REPEATABLE READ
+- Phantom Reads
+  SERIALIZABLE
