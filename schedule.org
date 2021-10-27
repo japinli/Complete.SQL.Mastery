@@ -72,7 +72,7 @@ DEADLINE: <2021-11-04 Thu> SCHEDULED: <2021-10-25 Mon>
 - [X] P88 - Concurrency Problems
 - [X] P89 - Concurrency Isolation Levels
 - [X] P90 - READ UNCOMMITTED Isolation Level
-- [ ] P91 - READ COMMITTED Isolation Level
+- [X] P91 - READ COMMITTED Isolation Level
 - [ ] P92 - REPEATABLE READ Isolation Level
 - [ ] P93 - SERIALIZABLE Isolation Level
 - [ ] P94 - Deadlocks
