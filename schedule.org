@@ -64,7 +64,7 @@
   - [X] P83 - Events
   - [X] P84 - Viewing, Dropping and Altering Events
 
-* TODO Chapter 11 - Transactions
+* DONE Chapter 11 - Transactions
 DEADLINE: <2021-11-04 Thu> SCHEDULED: <2021-10-25 Mon>
 - [X] P85 - Transactions
 - [X] P86 - Creating Transactions
@@ -75,7 +75,7 @@ DEADLINE: <2021-11-04 Thu> SCHEDULED: <2021-10-25 Mon>
 - [X] P91 - READ COMMITTED Isolation Level
 - [X] P92 - REPEATABLE READ Isolation Level
 - [X] P93 - SERIALIZABLE Isolation Level
-- [ ] P94 - Deadlocks
+- [X] P94 - Deadlocks
 
 * Notes
 
