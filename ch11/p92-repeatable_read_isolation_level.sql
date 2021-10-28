@@ -25,7 +25,7 @@ COMMIT;
 USE sql_store;
 SET TRANSACTION ISOLATION LEVEL REPEATABLE READ;
 START TRANSACTION;
-SELECT * FROM customer WHERE state = 'VA';
+SELECT * FROM customers WHERE state = 'VA';
 COMMIT;
 
 -- Session two
