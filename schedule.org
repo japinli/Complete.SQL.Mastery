@@ -81,7 +81,7 @@ DEADLINE: <2021-11-04 Thu> SCHEDULED: <2021-10-25 Mon>
 DEADLINE: <2021-11-07 Sun> SCHEDULED: <2021-10-30 Sat>
 - [X] P95 - Introduction
 - [X] P96 - String Types
-- [ ] P97 - Integer Types
+- [X] P97 - Integer Types
 - [ ] P98 - Fixed-point and floating-point Types
 - [ ] P99 - Boolean Types
 - [ ] P100 - Enum and Set Types
@@ -250,6 +250,18 @@ VARCHAR(50)  for short strings
 VARCHAR(255) for medium-length strings
 
 ** Numeric Types
+| Type             | Desc | Scope       |
+|------------------+------+-------------|
+| TINYINT          | 1b   | [-128, 127] |
+| UNSIGNED TINYINT | 1b   | [0, 255]    |
+| SMALLINT         | 2b   | [-32K, 32K] |
+| MEDIUMINT        | 3b   | [-8M, 8M]   |
+| INT              | 4b   | [-2B, 2B]   |
+| BIGINT           | 8b   | [-9Z, 9Z)]  |
+
+zerofill -> only impact display, not storage.
+Keep things smallest.
+
 ** Date and Time Types
 ** Blob Types
 ** Spatial Types
