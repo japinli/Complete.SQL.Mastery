@@ -79,7 +79,7 @@ DEADLINE: <2021-11-04 Thu> SCHEDULED: <2021-10-25 Mon>
 
 * TODO Chapter 12 - Data Types
 DEADLINE: <2021-11-07 Sun> SCHEDULED: <2021-10-30 Sat>
-- [ ] P95 - Introduction
+- [X] P95 - Introduction
 - [X] P96 - String Types
 - [ ] P97 - Integer Types
 - [ ] P98 - Fixed-point and floating-point Types
@@ -236,6 +236,19 @@ SET [SESSION | GLOBAL] TRANSACTION ISOLATION LEVEL SERIALIZABLE;
 
 * Data Types
 ** String Types
+| Type       | Desc                              |
+|------------+-----------------------------------|
+| CHAR(x)    | fixed-length                      |
+| VARCHAR(x) | max: 65,535 characters (~64KB)    |
+| MEDIUMTEXT | max: 16MB                         |
+| LONGTEXT   | max: 4GB                          |
+| TINYTEXT   | max: 255 bytes, cannot be indexed |
+| TEXT       | max: 64KB, cannot be indexed      |
+
+Example (Be consistent!):
+VARCHAR(50)  for short strings
+VARCHAR(255) for medium-length strings
+
 ** Numeric Types
 ** Date and Time Types
 ** Blob Types
