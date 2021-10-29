@@ -80,7 +80,7 @@ DEADLINE: <2021-11-04 Thu> SCHEDULED: <2021-10-25 Mon>
 * TODO Chapter 12 - Data Types
 DEADLINE: <2021-11-07 Sun> SCHEDULED: <2021-10-30 Sat>
 - [ ] P95 - Introduction
-- [ ] P96 - String Types
+- [X] P96 - String Types
 - [ ] P97 - Integer Types
 - [ ] P98 - Fixed-point and floating-point Types
 - [ ] P99 - Boolean Types
@@ -233,3 +233,10 @@ Lost Updates
 SHOW VARIABLES LIKE 'transaction_isolation';
 
 SET [SESSION | GLOBAL] TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+
+* Data Types
+** String Types
+** Numeric Types
+** Date and Time Types
+** Blob Types
+** Spatial Types
