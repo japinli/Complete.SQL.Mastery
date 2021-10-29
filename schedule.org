@@ -77,6 +77,18 @@ DEADLINE: <2021-11-04 Thu> SCHEDULED: <2021-10-25 Mon>
 - [X] P93 - SERIALIZABLE Isolation Level
 - [X] P94 - Deadlocks
 
+* TODO Chapter 12 - Data Types
+DEADLINE: <2021-11-07 Sun> SCHEDULED: <2021-10-30 Sat>
+- [ ] P95 - Introduction
+- [ ] P96 - String Types
+- [ ] P97 - Integer Types
+- [ ] P98 - Fixed-point and floating-point Types
+- [ ] P99 - Boolean Types
+- [ ] P100 - Enum and Set Types
+- [ ] P101 - Date and Time Types
+- [ ] P102 - Blob Types
+- [ ] P103 - JSON Type
+
 * Notes
 
   The IN operator is used where there has multiple records.
