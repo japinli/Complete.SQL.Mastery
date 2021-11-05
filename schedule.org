@@ -82,7 +82,7 @@ DEADLINE: <2021-11-07 Sun> SCHEDULED: <2021-10-30 Sat>
 - [X] P95 - Introduction
 - [X] P96 - String Types
 - [X] P97 - Integer Types
-- [ ] P98 - Fixed-point and floating-point Types
+- [X] P98 - Fixed-point and floating-point Types
 - [ ] P99 - Boolean Types
 - [ ] P100 - Enum and Set Types
 - [ ] P101 - Date and Time Types
@@ -265,3 +265,14 @@ Keep things smallest.
 ** Date and Time Types
 ** Blob Types
 ** Spatial Types
+** Floating-Points
+| Type          | Desc         |
+|---------------+--------------|
+| DECIMAL(p, s) | 1 <= p <= 65 |
+| DEC           |              |
+| NUMERIC       |              |
+| FIXED         |              |
+|---------------+--------------|
+| FLOAT         | 4b           |
+| DOUBLE        | 8b           |
+
