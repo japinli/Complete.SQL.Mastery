@@ -84,7 +84,7 @@ DEADLINE: <2021-11-07 Sun> SCHEDULED: <2021-10-30 Sat>
 - [X] P97 - Integer Types
 - [X] P98 - Fixed-point and floating-point Types
 - [X] P99 - Boolean Types
-- [ ] P100 - Enum and Set Types
+- [X] P100 - Enum and Set Types
 - [ ] P101 - Date and Time Types
 - [ ] P102 - Blob Types
 - [ ] P103 - JSON Type
@@ -286,3 +286,8 @@ BOOL, BOOLEAN
   SET is_published = TRUE -- or FALSE
 #+end_src
 
+
+** Enums
+ENUM('samll', 'medium', 'large')
+SET(...)
+You should avoid use them.
