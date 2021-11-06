@@ -299,3 +299,15 @@ You should avoid use them.
 | DATETIME  | 8b              |
 | TIMESTAMP | 4b (up to 2038) |
 | YEAR      | 4 digits year   |
+** Blob Types
+For large binary data.
+TINYBLOB 255b
+BLOB 65KB
+MEDIUMBLOB 16MB
+LONGBLOG 4GB
+
+*** Problems with Storing Files in a Database
+- Increased database size
+- Slower backups
+- Performance problems
+- More code to read/write images
