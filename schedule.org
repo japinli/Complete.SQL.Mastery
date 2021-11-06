@@ -85,7 +85,7 @@ DEADLINE: <2021-11-07 Sun> SCHEDULED: <2021-10-30 Sat>
 - [X] P98 - Fixed-point and floating-point Types
 - [X] P99 - Boolean Types
 - [X] P100 - Enum and Set Types
-- [ ] P101 - Date and Time Types
+- [X] P101 - Date and Time Types
 - [ ] P102 - Blob Types
 - [ ] P103 - JSON Type
 
@@ -291,3 +291,11 @@ BOOL, BOOLEAN
 ENUM('samll', 'medium', 'large')
 SET(...)
 You should avoid use them.
+** Date and Time Types
+| Type      | Desc            |
+|-----------+-----------------|
+| DATE      | witout time     |
+| TIME      | time value      |
+| DATETIME  | 8b              |
+| TIMESTAMP | 4b (up to 2038) |
+| YEAR      | 4 digits year   |
