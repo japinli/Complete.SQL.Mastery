@@ -87,7 +87,7 @@ DEADLINE: <2021-11-07 Sun> SCHEDULED: <2021-10-30 Sat>
 - [X] P100 - Enum and Set Types
 - [X] P101 - Date and Time Types
 - [ ] P102 - Blob Types
-- [ ] P103 - JSON Type
+- [X] P103 - JSON Type
 
 * Notes
 
