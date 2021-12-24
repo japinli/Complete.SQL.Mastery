@@ -77,7 +77,7 @@ DEADLINE: <2021-11-04 Thu> SCHEDULED: <2021-10-25 Mon>
 - [X] P93 - SERIALIZABLE Isolation Level
 - [X] P94 - Deadlocks
 
-* TODO Chapter 12 - Data Types
+* DONE Chapter 12 - Data Types
 DEADLINE: <2021-11-07 Sun> SCHEDULED: <2021-10-30 Sat>
 - [X] P95 - Introduction
 - [X] P96 - String Types
@@ -86,8 +86,42 @@ DEADLINE: <2021-11-07 Sun> SCHEDULED: <2021-10-30 Sat>
 - [X] P99 - Boolean Types
 - [X] P100 - Enum and Set Types
 - [X] P101 - Date and Time Types
-- [ ] P102 - Blob Types
+- [X] P102 - Blob Types
 - [X] P103 - JSON Type
+
+* TODO Chapter 13 - Designing Database
+DEADLINE: <2022-01-31 Mon> SCHEDULED: <2021-12-24 Fri>
+- [ ] P104 - Introduction
+- [ ] P105 - Data Modelling
+- [ ] P106 - Conceptual Models
+- [ ] P107 - Logical Models
+- [ ] P108 - Physical Models
+- [ ] P109 - Primary Keys
+- [ ] P110 - Foreign Keys
+- [ ] P111 - Foreign Key Constraints
+- [ ] P112 - Normalization
+- [ ] P113 - 1NF - First Normal Form
+- [ ] P114 - Link Tables
+- [ ] P115 - 2NF - Second Normal Form
+- [ ] P116 - 3NF - Third Normal Form
+- [ ] P117 - My Pragmatic Advice
+- [ ] P118 - Don't Model the Universe
+- [ ] P119 - Forward Engineering a Model
+- [ ] P120 - Synchronizing a Model with a Database
+- [ ] P121 - Reverse Engineering a Model
+- [ ] P122 - Project - Flight Booking System
+- [ ] P123 - Solution - Conceptual Model
+- [ ] P124 - Solution - Logical Model
+- [ ] P125 - Project - Video Rental Application
+- [ ] P126 - Solution - Conceptual Model
+- [ ] P127 - Solution - Logical Model
+- [ ] P128 - Creating and Dropping Database
+- [ ] P129 - Creating Tables
+- [ ] P130 - Altering Tables
+- [ ] P131 - Creating Relationships
+- [ ] P132 - Altering Primary and Foreign Key Constraints
+- [ ] P133 - Character Sets and Collations
+- [ ] P134 - Storage Engines
 
 * Notes
 
