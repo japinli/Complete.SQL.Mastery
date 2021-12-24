@@ -91,14 +91,14 @@ DEADLINE: <2021-11-07 Sun> SCHEDULED: <2021-10-30 Sat>
 
 * TODO Chapter 13 - Designing Database
 DEADLINE: <2022-01-31 Mon> SCHEDULED: <2021-12-24 Fri>
-- [ ] P104 - Introduction
-- [ ] P105 - Data Modelling
-- [ ] P106 - Conceptual Models
-- [ ] P107 - Logical Models
-- [ ] P108 - Physical Models
-- [ ] P109 - Primary Keys
-- [ ] P110 - Foreign Keys
-- [ ] P111 - Foreign Key Constraints
+- [X] P104 - Introduction
+- [X] P105 - Data Modelling
+- [X] P106 - Conceptual Models
+- [X] P107 - Logical Models
+- [X] P108 - Physical Models
+- [X] P109 - Primary Keys
+- [X] P110 - Foreign Keys
+- [X] P111 - Foreign Key Constraints
 - [ ] P112 - Normalization
 - [ ] P113 - 1NF - First Normal Form
 - [ ] P114 - Link Tables
