@@ -99,11 +99,19 @@ DEADLINE: <2022-01-31 Mon> SCHEDULED: <2021-12-24 Fri>
 - [X] P109 - Primary Keys
 - [X] P110 - Foreign Keys
 - [X] P111 - Foreign Key Constraints
-- [ ] P112 - Normalization
-- [ ] P113 - 1NF - First Normal Form
-- [ ] P114 - Link Tables
-- [ ] P115 - 2NF - Second Normal Form
-- [ ] P116 - 3NF - Third Normal Form
+- [X] P112 - Normalization
+  Seven normal forms, but we should know first three normal forms.
+  - 1st Noraml Form
+  - 2nd Normal Form
+  - 3rd Normal Form    
+- [X] P113 - 1NF - First Normal Form
+  Each cell should have *single value* and we cannot have repeated columns.
+- [X] P114 - Link Tables
+- [X] P115 - 2NF - Second Normal Form
+  Every *table* should describe *one entity*, and every column in that table
+  should describe that entity.
+- [X] P116 - 3NF - Third Normal Form
+  A column in a table should not be derived from other columns.
 - [ ] P117 - My Pragmatic Advice
 - [ ] P118 - Don't Model the Universe
 - [ ] P119 - Forward Engineering a Model
