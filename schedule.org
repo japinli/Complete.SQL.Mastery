@@ -112,16 +112,20 @@ DEADLINE: <2022-01-31 Mon> SCHEDULED: <2021-12-24 Fri>
   should describe that entity.
 - [X] P116 - 3NF - Third Normal Form
   A column in a table should not be derived from other columns.
-- [ ] P117 - My Pragmatic Advice
-- [ ] P118 - Don't Model the Universe
-- [ ] P119 - Forward Engineering a Model
-- [ ] P120 - Synchronizing a Model with a Database
-- [ ] P121 - Reverse Engineering a Model
-- [ ] P122 - Project - Flight Booking System
-- [ ] P123 - Solution - Conceptual Model
-- [ ] P124 - Solution - Logical Model
-- [ ] P125 - Project - Video Rental Application
-- [ ] P126 - Solution - Conceptual Model
+- [X] P117 - My Pragmatic Advice
+  How to remove reduance.
+  Don't jump into creating tables!
+- [X] P118 - Don't Model the Universe
+  Solve today's problems, not future problems that may never happen.
+  Simplicity is the Ultimate Sophistication.
+- [X] P119 - Forward Engineering a Model
+- [X] P120 - Synchronizing a Model with a Database
+- [X] P121 - Reverse Engineering a Model
+- [X] P122 - Project - Flight Booking System
+- [X] P123 - Solution - Conceptual Model
+- [X] P124 - Solution - Logical Model
+- [X] P125 - Project - Video Rental Application
+- [X] P126 - Solution - Conceptual Model
 - [ ] P127 - Solution - Logical Model
 - [ ] P128 - Creating and Dropping Database
 - [ ] P129 - Creating Tables
