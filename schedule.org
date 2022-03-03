@@ -126,14 +126,14 @@ DEADLINE: <2022-01-31 Mon> SCHEDULED: <2021-12-24 Fri>
 - [X] P124 - Solution - Logical Model
 - [X] P125 - Project - Video Rental Application
 - [X] P126 - Solution - Conceptual Model
-- [ ] P127 - Solution - Logical Model
-- [ ] P128 - Creating and Dropping Database
-- [ ] P129 - Creating Tables
-- [ ] P130 - Altering Tables
-- [ ] P131 - Creating Relationships
-- [ ] P132 - Altering Primary and Foreign Key Constraints
-- [ ] P133 - Character Sets and Collations
-- [ ] P134 - Storage Engines
+- [X] P127 - Solution - Logical Model
+- [X] P128 - Creating and Dropping Database
+- [X] P129 - Creating Tables
+- [X] P130 - Altering Tables
+- [X] P131 - Creating Relationships
+- [X] P132 - Altering Primary and Foreign Key Constraints
+- [X] P133 - Character Sets and Collations
+- [X] P134 - Storage Engines
 
 * Notes
 
