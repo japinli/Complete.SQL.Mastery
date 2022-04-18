@@ -89,7 +89,7 @@ DEADLINE: <2021-11-07 Sun> SCHEDULED: <2021-10-30 Sat>
 - [X] P102 - Blob Types
 - [X] P103 - JSON Type
 
-* TODO Chapter 13 - Designing Database
+* DONE Chapter 13 - Designing Database
 DEADLINE: <2022-01-31 Mon> SCHEDULED: <2021-12-24 Fri>
 - [X] P104 - Introduction
 - [X] P105 - Data Modelling
@@ -134,6 +134,53 @@ DEADLINE: <2022-01-31 Mon> SCHEDULED: <2021-12-24 Fri>
 - [X] P132 - Altering Primary and Foreign Key Constraints
 - [X] P133 - Character Sets and Collations
 - [X] P134 - Storage Engines
+
+* TODO Chapter 14 - Indexing for High Performance
+- [X] P135 - Introduction
+  Indexes speed up our queries
+- [X] P136 - Indexes
+  - Cost of Indexes
+    - Increase the database
+    - Slow down the writes
+  - How to Design
+    - Based on your queries, not your tables
+- [X] P137 - Creating Indexes
+  - Explain to show query plans
+- [X] P138 - Viewing Indexes
+  - SHOW INDEXES IN table_name
+  - PRIMARY KEY -> cluster index
+  - Each table at most has one cluster index
+  - Other indexes are secondary indexes
+- [X] P139 - Prefix Indexes
+  #+begin_src sql
+    SELECT count(*) FROM customers;
+    SELECT
+        count(DISTINCT left(last_name, 1)),
+        count(DISTINCT left(last_name, 5)),
+        count(DISTINCT left(last_name, 10))
+    FROM
+        customers;
+
+    -- prefix index
+    CREATE INDEX idx_last_name ON customers(last_name(5));
+  #+end_src
+- [X] P140 - Full-text Indexes
+- [ ] P141 - Composite Indexes
+- [ ] P142 - Order of Columns in Composite Indexes
+- [ ] P143 - When Indexes are Ignored
+- [ ] P144 - Using Indexes for Sorting
+- [ ] P145 - Convering Indexes
+- [ ] P146 - Indexes Maintenance
+* TODO Chapter 15 - Securing Databases
+- [ ] P147 - Introduction
+- [ ] P148 - Creating a User
+- [ ] P149 - Viewing Users
+- [ ] P150 - Dropping Users
+- [ ] P151 - Changing Passwords
+- [ ] P152 - Granting Privileges
+- [ ] P153 - Viewing Privileges
+- [ ] P154 - Revoking Privileges
+- [ ] P155 - Wrap Up
 
 * Notes
 
