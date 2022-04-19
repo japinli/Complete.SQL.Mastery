@@ -135,7 +135,7 @@ DEADLINE: <2022-01-31 Mon> SCHEDULED: <2021-12-24 Fri>
 - [X] P133 - Character Sets and Collations
 - [X] P134 - Storage Engines
 
-* TODO Chapter 14 - Indexing for High Performance
+* DONE Chapter 14 - Indexing for High Performance
 - [X] P135 - Introduction
   Indexes speed up our queries
 - [X] P136 - Indexes
@@ -244,16 +244,62 @@ DEADLINE: <2022-01-31 Mon> SCHEDULED: <2021-12-24 Fri>
     (B, A)
     (B) - x
   - Before creating new indexes, check the existing ones.
-* TODO Chapter 15 - Securing Databases
-- [ ] P147 - Introduction
-- [ ] P148 - Creating a User
-- [ ] P149 - Viewing Users
-- [ ] P150 - Dropping Users
-- [ ] P151 - Changing Passwords
-- [ ] P152 - Granting Privileges
-- [ ] P153 - Viewing Privileges
-- [ ] P154 - Revoking Privileges
-- [ ] P155 - Wrap Up
+* DONE Chapter 15 - Securing Databases
+- [X] P147 - Introduction
+- [X] P148 - Creating a User
+  #+begin_src sql
+    CREATE USER john@127.0.0.1
+    CREATE USER john@localhost
+    CREATE USER john@codewithmosh.com
+    CREATE USER john@'%.codewithmosh.com'
+    CREATE USER john IDENTIFIED BY '123456';
+  #+end_src
+- [X] P149 - Viewing Users
+  #+begin_src sql
+    SELECT * FROM mysql.user;
+  #+end_src
+- [X] P150 - Dropping Users
+  #+begin_src sql
+    CREATE USER bob@codewithmosh.com IDENTIFIED BY '123456';
+    DROP USER bob@codewithmosh.com;
+  #+end_src
+- [X] P151 - Changing Passwords
+  #+begin_src sql
+    SET PASSWORD FOR john = '1234';
+    SET PASSWORD = '1234'; -- current login user
+  #+end_src
+- [X] P152 - Granting Privileges
+  #+begin_src sql
+    -- 1. web/desktop application
+    CREATE USER moon_app IDENTIFIED BY '1234';
+
+    GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE
+    ON sql_store.*
+    TO moon_app;
+
+    -- 2. admin
+    -- mysql privileges
+    GRANT ALL
+    ON *.*    -- *.* all tables in all databases
+    TO john;
+  #+end_src
+  https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html
+- [X] P153 - Viewing Privileges
+  #+begin_src sql
+    SHOW GRANTS FOR john;
+    SHOW GRANTS; -- current loging user
+  #+end_src
+- [X] P154 - Revoking Privileges
+  #+begin_src sql
+    GRANT CREATE VIEW
+    ON sql_store.*
+    TO moon_app;
+
+    REVOKE CREATE VIEW
+    ON sql_store.*
+    FROM moon_app;
+  #+end_src
+- [X] P155 - Wrap Up
 
 * Notes
 
