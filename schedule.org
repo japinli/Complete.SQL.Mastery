@@ -181,8 +181,31 @@ DEADLINE: <2022-01-31 Mon> SCHEDULED: <2021-12-24 Fri>
     USE INDEX (idx_lastname_state)
     WHERE state = 'NY' AND last_name LIKE 'A%';
   #+end_src
+- [X] P143 - When Indexes are Ignored
+  #+begin_src sql
+    CREATE INDEX idx_points ON customers (points);
+    EXPLAIN
+    SELECT customer_id FROM customers
+    WHERE state = 'CA' OR points > 1000;
 
-- [ ] P143 - When Indexes are Ignored
+    -- rewrite
+    EXPLAIN
+    SELECT customer_id FROM customers
+    WHERE state = 'CA'
+    UNION
+    SELECT customer_id FROM customers
+    WHERE points > 1000;
+
+    -- cannot use idx_points index.
+    EXPLAIN
+    SELECT customer_id FROM customers
+    WHERE points + 10 > 2010;
+
+    -- rewrite
+    EXPLAIN
+    SELECT customer_id FROM customers
+    WHERE points > 2000;
+#+end_src
 - [ ] P144 - Using Indexes for Sorting
 - [ ] P145 - Convering Indexes
 - [ ] P146 - Indexes Maintenance
