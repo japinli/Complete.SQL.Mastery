@@ -165,8 +165,23 @@ DEADLINE: <2022-01-31 Mon> SCHEDULED: <2021-12-24 Fri>
     CREATE INDEX idx_last_name ON customers(last_name(5));
   #+end_src
 - [X] P140 - Full-text Indexes
-- [ ] P141 - Composite Indexes
-- [ ] P142 - Order of Columns in Composite Indexes
+- [X] P141 - Composite Indexes
+  #+begin_src sql
+    CREATE INDEX idx_state_points
+    ON customers(state, points);
+  #+end_src
+  Composite indexes at most contains 16 columns.
+- [X] P142 - Order of Columns in Composite Indexes
+  - Put the most frequently used columns first
+  - Put the columns with a higher cardinality first (number of unique values)
+  - Take your queries into account
+  #+begin_src sql
+    EXPLAIN SELECT customer_id
+    FROM customers
+    USE INDEX (idx_lastname_state)
+    WHERE state = 'NY' AND last_name LIKE 'A%';
+  #+end_src
+
 - [ ] P143 - When Indexes are Ignored
 - [ ] P144 - Using Indexes for Sorting
 - [ ] P145 - Convering Indexes
