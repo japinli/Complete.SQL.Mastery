@@ -207,8 +207,43 @@ DEADLINE: <2022-01-31 Mon> SCHEDULED: <2021-12-24 Fri>
     WHERE points > 2000;
 #+end_src
 - [ ] P144 - Using Indexes for Sorting
-- [ ] P145 - Convering Indexes
-- [ ] P146 - Indexes Maintenance
+  #+begin_src sql
+    EXPLAIN SELECT customer_id FROM customers
+    ORDER BY state, points;
+
+    EXPLAIN SELECT customer_id FROM customers
+    ORDER BY state DESC, points DESC;
+
+    EXPLAIN SELECT customer_id FROM customers
+    ORDER BY state, points DESC;
+
+    SHOW status LIKE 'last_query_cost';
+
+    EXPLAIN SELECT customer_id FROM customers
+    WHERE state = 'CA'
+    ORDER BY points;
+  #+end_src
+- [X] P145 - Convering Indexes
+  #+begin_src sql
+    EXPLAIN
+    SELECT customer_id, state FROM customers
+    ORDER BY state;
+
+
+    EXPLAIN
+    SELECT * FROM customers
+    ORDER BY state;
+  #+end_src
+- [X] P146 - Indexes Maintenance
+  - Duplicate indexes
+    (A, B, C)
+    (A, B, C) - x
+  - Redundant Indexes
+    (A, B)
+    (A) - x
+    (B, A)
+    (B) - x
+  - Before creating new indexes, check the existing ones.
 * TODO Chapter 15 - Securing Databases
 - [ ] P147 - Introduction
 - [ ] P148 - Creating a User
